@@ -3,7 +3,8 @@
 ## Use Docker to build and run
 
 ``` bash
-$ git pull kwaa/ssvm-nodejs-starter:v1
+$ git clone https://github.com/kwaa/ssvm-nodejs-starter
+$ cd ssvm-nodejs-starter
 $ docker build -t ssvm-nodejs:v1 .
 $ docker run -p 3000:3000 --rm -it -v $(pwd):/app ssvm-nodejs:v1
 (docker) # cd /app
